@@ -14,20 +14,4 @@ public class Account {
     private List<Wallet> wallets;
     private AccountState state;
 
-    public void close() {
-        this.state = AccountState.CLOSED;
-    }
-
-    public void suspend() {
-        this.state = AccountState.SUSPENDED;
-    }
-
-    public void open() {
-        this.state = AccountState.OPEN;
-    }
-
-    public void freeze() {
-        this.state = AccountState.FROZEN;
-    }
-
 }
