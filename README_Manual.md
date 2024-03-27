@@ -17,8 +17,9 @@ POST /transfer
 Content-Type: application/json
 
 {
-  "sourceAccount": "source-account-number",
-  "destinationAccount": "destination-account-number",
+  "entityId": "entity-id",
+  "sourceId": "source-id",
+  "destinationId": "destination-id",
   "amount": amount-to-transfer
 }
 ```

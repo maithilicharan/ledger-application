@@ -16,8 +16,6 @@ Before you can install and run the Ledger Application, you need to have the foll
 git clone https://github.com/maithilicharan/ledger-application.git
 ```
 
-Replace `username` with the actual GitHub username.
-
 2. **Navigate to the Project Directory:** Change your current directory to the Ledger Application directory:
 
 ```bash
@@ -39,7 +37,7 @@ mvn clean install
    This needs to be removed and comprehensive Account and Wallet Management needs to be implemented. Apparently this
    needs bit of time to implement
 3. **Database** : At the moment application using InMemory database. This needs to be replaced with actual database
-   implementation, respective scaffolding and the support from Axon frame work already exists.
+   implementation, respective scaffolding and the support from Axon framework already exists.
 4. **Final Point** :  Application needs thorough testing around end to end scenarios. This could be easily done, since I
    have
    the framework in place to perform further development and testing.

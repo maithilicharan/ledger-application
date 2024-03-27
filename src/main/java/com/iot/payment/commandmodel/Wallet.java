@@ -30,7 +30,7 @@ public class Wallet {
                 return history.getBalance();
             }
         }
-        return null;  // Or throw an exception
+        return null;
     }
 
 }

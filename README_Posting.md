@@ -21,10 +21,10 @@ of a client's posting.
 
 ### 3.2 Input
 
-The API will accept a path variable with the new state.
+The API will accept a path variable with the new Posting Status.
 
 ### 3.3 Processing
 
 - The system will validate the new state.
 - The system will check if the client is authorized to modify their posting state.
-- If validation passes, the system will update the posting state in the database.
+- If validation passes, the system will update the posting state.
